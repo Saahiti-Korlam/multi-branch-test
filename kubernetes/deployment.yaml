@@ -17,4 +17,4 @@ spec:
       - name: movie-app
         image: sahichoco123/multistage-flask-app:latest
         ports:
-          containerPort: 5000 
+          - containerPort: 5000
